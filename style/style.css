@@ -82,6 +82,9 @@ img {
   border-bottom-left-radius: none;
   border-bottom-right-radius: none;
 }
+img.imagePc{
+  display: none;
+}
 div.description {
   margin: 20px;
   font-family: "Montserrat", sans-serif;
@@ -96,9 +99,10 @@ button {
   padding: 10px;
 }
 div.itemProducto {
-  text-transform: uppercase;
-  letter-spacing: 0.5em;
   font-size: 14px;
+  letter-spacing: 0.5em;
+  /* margin-top: ; */
+  text-transform: uppercase;
 }
 div.itemName {
   font-family: "Fraunces", serif;
@@ -108,13 +112,12 @@ div.itemName {
 div.description > p{
   font-size: 16px;
   letter-spacing: 0.1px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 div.description > p,
 div.itemProducto {
   color: var(--Dark_grayish_blue);
-  margin-top: 20px;
-  margin-bottom: 20px;
-
 }
 div.itemPrecioDescuento {
   display: flex;
@@ -142,4 +145,17 @@ button {
   color: var(--White);
   background-color: var(--Dark_cyan);
   border-radius: 10px;
+}
+
+div.attribution{
+  margin: 20px;
+  font-size: 0.8em;
+  font-weight: 200;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+div.attribution > a{
+  color: blueviolet;
+  font-weight: 600;
+  text-decoration: none;
 }
